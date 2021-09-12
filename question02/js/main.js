@@ -5,7 +5,7 @@
     if (year % 4 == 0 && year % 100 != 0 || year == 400) {
       return console.log(`${year}年は、閏年です。`);
     } else {
-      return console.log(`${year}年は、閏年です。`);
+      return console.log(`${year}年は、閏年ではありません。`);
     }
   };
   leapYear(2020);
